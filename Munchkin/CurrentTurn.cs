@@ -25,7 +25,7 @@ namespace Munchkin
         public void KickDownDoor()
         {
             this.state = State.KickDownDoor;
-            dm.Deck.TakeTreasureCard(Deck.CardFacing.Up);
+            dm.Deck.TakeDoorCard(Deck.CardFacing.Up);
 
             /* switch on card type
             Combat(door_card, player);

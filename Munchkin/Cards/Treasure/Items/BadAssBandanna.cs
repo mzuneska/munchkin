@@ -7,5 +7,6 @@ namespace Munchkin.Cards.Treasure.Items
 {
     class BadAssBandanna : Item
     {
+        public BadAssBandanna(string name) : base(name) { }
     }
 }

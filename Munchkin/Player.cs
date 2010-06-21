@@ -81,7 +81,7 @@ namespace Munchkin
             throw new NotImplementedException();
         }
 
-        enum Gender
+        public enum Gender
         {
             Male,
             Female

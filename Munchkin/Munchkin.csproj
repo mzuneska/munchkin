@@ -58,6 +58,16 @@
     <Compile Include="Player.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\CardLoader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="specs\DungeonMaster_spec.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="docs\stories.txt" />
+    <Content Include="specs\Combat_spec.txt" />
+    <Content Include="specs\Game_spec.txt" />
+    <Content Include="specs\Utilities\CardLoader_spec.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Cards\Door\Monsters\" />

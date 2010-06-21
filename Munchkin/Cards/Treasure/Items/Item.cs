@@ -8,5 +8,7 @@ namespace Munchkin.Cards.Treasure.Items
     abstract class Item : Card
     {
         private int value = 0;
+
+        public Item(string name) : base(name) {}
     }
 }
