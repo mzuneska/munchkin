@@ -39,7 +39,13 @@ namespace Munchkin
 
         }
 
-        private void ShuffleCards() { }
+        private void ShuffleCards() 
+        {
+            Console.WriteLine("Shuffling Cards...");
+            Random rnd = new Random();
+            treasure_cards.Sort(delegate(Card card1, Card card2) { return ((card1 == card2) ? 0 : rnd.Next(-1, 1)); });
+            door_cards.Sort(delegate(Card card1, Card card2) { return ((card1 == card2) ? 0 : rnd.Next(-1, 1)); });
+        }
 
         public enum CardFacing
         {

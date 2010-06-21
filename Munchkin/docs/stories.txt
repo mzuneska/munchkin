@@ -3,3 +3,5 @@
 2. As a player I should be able to enter my name and gender when starting game.
 
 3. As a player when starting a game I should see my name, gender, race, class, and level.
+
+4. As a player when starting a game all the cards should be shuffled.

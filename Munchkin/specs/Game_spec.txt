@@ -2,4 +2,6 @@
 
 it should create each player
 
+it should show info for all players before game starts
+
 it should create a dungeon master

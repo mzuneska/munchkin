@@ -42,7 +42,7 @@ namespace Munchkin
 
         public Deck Deck
         {
-            get{return deck;}
+            get { return deck; }
         }
 
         private Player NextPlayer()

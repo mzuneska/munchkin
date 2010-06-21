@@ -22,7 +22,7 @@ namespace Munchkin
                 Console.WriteLine("{0} joins the party as a {1} level 1 Human with no class.", player.Name, player.Sex);
             }
 
-            //DungeonMaster.Instance.Begin(players);
+            DungeonMaster.Instance.Begin(players);
         }
 
         private static Player CreatePlayer(string gender, string name)

@@ -1,0 +1,1 @@
+﻿it should shuffle the cards when a new instance is created
