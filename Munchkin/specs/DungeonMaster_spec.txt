@@ -1,0 +1,9 @@
+﻿it should hold the deck
+
+it should know all the current players
+
+it should be a singleton
+
+it should go to next turn if game is over
+
+it should not go to next turn if game is over
