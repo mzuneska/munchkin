@@ -1,0 +1,9 @@
+﻿it should have at least one player currently in combat
+
+it should have at most two players in combat at any time
+
+it should have a list monsters who are currently in combat
+
+it should determine who has won the combat
+
+it should determine when combat is over

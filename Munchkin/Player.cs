@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using Munchkin.Cards;
 using Munchkin.Cards.Treasure.Items;
+using Munchkin.Races;
+using Munchkin.PlayerClasses;
 
 namespace Munchkin
 {
@@ -27,12 +29,12 @@ namespace Munchkin
         public Player(Gender sex, string name) 
         {
             this.sex = sex;
-            Name = name;
+            this.name = name;
         }
 
         public int Level { get { return level; } private set { level = value; } }
         public Gender Sex { get { return sex; }}
-        public string Name { get { return name; } set { name = value; } }
+        public string Name { get { return name; } }
 
         public Item HeadGear { get { return head_gear; } set { head_gear = value; } }
         public Item Armor { get { return armor; } set { armor = value; } }

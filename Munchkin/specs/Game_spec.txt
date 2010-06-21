@@ -1,5 +1,5 @@
 ﻿it should start the main program
 
-it should create the players based on input
+it should create each player
 
 it should create a dungeon master
