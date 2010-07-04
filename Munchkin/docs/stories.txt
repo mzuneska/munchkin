@@ -5,3 +5,5 @@
 3. As a player when starting a game I should see my name, gender, race, class, and level.
 
 4. As a player when starting a game all the cards should be shuffled.
+
+5. As a player when playing a game if killed then I should die.
