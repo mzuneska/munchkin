@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Docs\stories.txt" />
     <Content Include="Specs\Combat_spec.txt" />
+    <Content Include="Specs\Deck_spec.txt" />
     <Content Include="Specs\Game_spec.txt" />
     <Content Include="Specs\Lib\Actions\KillPlayer_spec.txt" />
     <Content Include="Specs\Lib\Actions\LoseLevels_spec.txt" />
