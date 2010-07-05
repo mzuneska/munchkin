@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{53C26F1D-BB8D-43D3-B1F0-B523534FF15C}</ProjectGuid>
     <OutputType>Exe</OutputType>
@@ -52,6 +52,9 @@
     <Compile Include="CurrentTurn.cs" />
     <Compile Include="Deck.cs" />
     <Compile Include="DungeonMaster.cs" />
+    <Compile Include="Lib\Actions\IAction.cs" />
+    <Compile Include="Lib\Actions\KillPlayer.cs" />
+    <Compile Include="Lib\Actions\LoseLevels.cs" />
     <Compile Include="PlayerClasses\IWarrior.cs" />
     <Compile Include="Races\IElf.cs" />
     <Compile Include="Races\IHuman.cs" />
@@ -61,13 +64,16 @@
     <Compile Include="Utilities\CardLoader.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="specs\DungeonMaster_spec.txt" />
+    <Content Include="Specs\DungeonMaster_spec.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="docs\stories.txt" />
-    <Content Include="specs\Combat_spec.txt" />
-    <Content Include="specs\Game_spec.txt" />
-    <Content Include="specs\Utilities\CardLoader_spec.txt" />
+    <Content Include="Docs\stories.txt" />
+    <Content Include="Specs\Combat_spec.txt" />
+    <Content Include="Specs\Game_spec.txt" />
+    <Content Include="Specs\Lib\Actions\KillPlayer_spec.txt" />
+    <Content Include="Specs\Lib\Actions\LoseLevels_spec.txt" />
+    <Content Include="Specs\Player_spec.txt" />
+    <Content Include="Specs\Utilities\CardLoader_spec.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Cards\Door\Monsters\" />
