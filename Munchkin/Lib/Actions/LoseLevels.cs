@@ -20,7 +20,7 @@ namespace Munchkin.Lib.Actions
         {
             for (int i = 0; i < levels_to_lose; i++)
             {
-                player.LevelDown;
+                player.LevelDown();
             }
         }
     }
