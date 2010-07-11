@@ -17,6 +17,7 @@ namespace Munchkin
         private int carryable_big_items = 1;
         private bool is_in_combat = false;
         private bool is_current_turn = false;
+        private bool is_dead = false;
 
         private List<Card> hand;
         private List<Item> carried;
@@ -34,7 +35,7 @@ namespace Munchkin
 
         public int Level { get { return level; } private set { level = value; } }
         public Gender Sex { get { return sex; } set { sex = value; } }
-        public string Name { get { return name; } }
+        public bool IsDead { get { return is_dead; } }
 
         public Item HeadGear { get { return head_gear; } set { head_gear = value; } }
         public Item Armor { get { return armor; } set { armor = value; } }
@@ -87,6 +88,11 @@ namespace Munchkin
         {
             Male,
             Female
+        }
+
+        public void Die()
+        {
+            this.is_dead = true;
         }
     }
 }
