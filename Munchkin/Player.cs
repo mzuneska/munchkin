@@ -35,6 +35,7 @@ namespace Munchkin
 
         public int Level { get { return level; } private set { level = value; } }
         public Gender Sex { get { return sex; } set { sex = value; } }
+        public string Name { get { return name; } }
         public bool IsDead { get { return is_dead; } }
 
         public Item HeadGear { get { return head_gear; } set { head_gear = value; } }
