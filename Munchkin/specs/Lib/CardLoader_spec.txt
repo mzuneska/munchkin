@@ -1,0 +1,7 @@
+﻿it should know where to load cards data file
+
+it should create all cards from data file with basic information when calling Load
+
+it should create as many cards as specified in total_entries attribute
+
+it should create card class based on child elements under cards element

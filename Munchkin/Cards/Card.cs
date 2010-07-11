@@ -7,9 +7,16 @@ namespace Munchkin.Cards
 {
     abstract class Card
     {
-        private bool face_down = true;
-        private string name;
-        private Player owner = null;
+        protected bool face_down = true;
+        protected string name;
+        protected Player owner = null;
+        protected string description;
+
+        public string Description
+        {
+            get { return description; }
+            set { description = value; }
+        }
 
         public Card(string name)
         {
@@ -22,6 +29,12 @@ namespace Munchkin.Cards
         public bool IsFaceDown
         {
             get { return face_down; } 
+        }
+
+        public enum Genre
+        {
+            Door,
+            Treasure
         }
     }
 }

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cards>
+  <door>
+    <monsters>
+      <monster name="Potted Plant" level="1">
+        <description>
+          Elves draw an extra treasure after defeating it.
+        </description>
+        <!--<exception race="Elf" treasures="2" />-->
+        <bad_stuff>
+          <description>Escape is automatic</description>
+          <!--<action escape="auto" />-->
+        </bad_stuff>
+      </monster>
+      <monster name="Leperchaun" level="4" treasures="2">
+        <description>He's gross! +5 against Elves</description>
+        <exception race="Elf">+5</exception>
+        <bad_stuff>
+          <description>
+            He takes two items from you - one chosen by the player on either side of you.
+          </description>
+          <action lose_items="2">
+            <next_player />
+            <previous_player />
+          </action>
+        </bad_stuff>
+      </monster>
+      <monster name="Net Troll" level="10" treasures="?" levels="?">
+        <description>He has no special powers and he's really mad about it.</description>
+      </monster>
+      <monster name="Wannabe Vampire" level="12" treasures="3">
+        <description>
+          Instead of fighting a Cleric can chase the Wannabe Vampire away by going "booga booga", and take all his Treasure. There is no level increase for this!
+        </description>
+        <exception class="Cleric" levels="0" win="true"></exception>
+      </monster>
+      <monster name="Squidzilla" level="18" treasures="4" levels="2">
+        <description>
+          Slimy! Elves are at -4! Will not pursue anyone of level 4 or below except Elves.
+        </description>
+        <bad_stuff>
+          <description>
+            You are grabbed, slimed, crushed, and gobbled. You are dead, dead, dead. Any questions?
+          </description>
+          <action death="true" />
+        </bad_stuff>
+        <will_not_pursue_up_to level="4">
+          <exception race="Elf" />
+        </will_not_pursue_up_to>
+        <exception race="Elf">+4</exception>
+      </monster>
+      <monster name="Plutonium Dragon" level="20" treasures="5" levels="2">
+        <description>
+          Will not pursue anyone of level 5 or below.
+        </description>
+        <will_not_pursue_up_to level="5" />
+        <bad_stuff>
+          <description>You are roasted and eaten.</description>
+          <action death="true" />
+        </bad_stuff>
+      </monster>
+    </monsters>
+    <curse></curse>
+  </door>
+  <treasure></treasure>
+</cards>

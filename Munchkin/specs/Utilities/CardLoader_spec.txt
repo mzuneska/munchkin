@@ -1,1 +1,0 @@
-﻿it should create all cards from data file

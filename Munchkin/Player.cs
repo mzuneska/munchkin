@@ -14,7 +14,7 @@ namespace Munchkin
         private Gender sex;
         private int level = 1;
         private string name;
-        private int big_items = 1;
+        private int carryable_big_items = 1;
         private bool is_in_combat = false;
         private bool is_current_turn = false;
 
@@ -33,7 +33,7 @@ namespace Munchkin
         }
 
         public int Level { get { return level; } private set { level = value; } }
-        public Gender Sex { get { return sex; }}
+        public Gender Sex { get { return sex; } set { sex = value; } }
         public string Name { get { return name; } }
 
         public Item HeadGear { get { return head_gear; } set { head_gear = value; } }

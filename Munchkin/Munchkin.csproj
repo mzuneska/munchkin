@@ -46,19 +46,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cards\Card.cs" />
+    <Compile Include="Cards\Door\Curse\Lose1BigItem.cs" />
+    <Compile Include="Cards\Door\Monster.cs" />
+    <Compile Include="Cards\Door\Monsters\PottedPlant.cs" />
     <Compile Include="Cards\Treasure\Items\BadAssBandanna.cs" />
     <Compile Include="Cards\Treasure\Items\Item.cs" />
     <Compile Include="Combat.cs" />
     <Compile Include="CurrentTurn.cs" />
     <Compile Include="Deck.cs" />
     <Compile Include="DungeonMaster.cs" />
+    <Compile Include="Lib\RandomlySortedCardList.cs" />
     <Compile Include="PlayerClasses\IWarrior.cs" />
     <Compile Include="Races\IElf.cs" />
     <Compile Include="Races\IHuman.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utilities\CardLoader.cs" />
+    <Compile Include="Lib\CardLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="specs\DungeonMaster_spec.txt" />
@@ -66,11 +70,10 @@
   <ItemGroup>
     <Content Include="docs\stories.txt" />
     <Content Include="specs\Combat_spec.txt" />
+    <Content Include="specs\Deck_spec.txt" />
     <Content Include="specs\Game_spec.txt" />
-    <Content Include="specs\Utilities\CardLoader_spec.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Cards\Door\Monsters\" />
+    <Content Include="specs\Lib\CardLoader_spec.txt" />
+    <Content Include="Lib\Cards.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
