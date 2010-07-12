@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{53C26F1D-BB8D-43D3-B1F0-B523534FF15C}</ProjectGuid>
     <OutputType>Exe</OutputType>
@@ -46,14 +46,39 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cards\Card.cs" />
-
     <Compile Include="Cards\Door\Curse\Lose1BigItem.cs" />
     <Compile Include="Cards\Door\Monster.cs" />
     <Compile Include="Cards\Door\Monsters\PottedPlant.cs" />
-    
-
-    <Compile Include="Cards\Treasure\Items\BadAssBandanna.cs" />
-    <Compile Include="Cards\Treasure\Items\Item.cs" />
+    <Compile Include="Cards\Treasure\Items\Footgear\BootsOfButtKicking.cs" />
+    <Compile Include="Cards\Treasure\Items\Footgear\BootsOfRunningReallyFast.cs" />
+    <Compile Include="Cards\Treasure\Items\Footgear\SandalsOfProtection.cs" />
+    <Compile Include="Cards\Treasure\Items\Headgear\BadAssBandanna.cs" />
+    <Compile Include="Cards\Treasure\Items\CloakOfObscurity.cs" />
+    <Compile Include="Cards\Treasure\Items\Headgear\HelmOfCourage.cs" />
+    <Compile Include="Cards\Treasure\Items\Headgear\HornyHelmet.cs" />
+    <Compile Include="Cards\Treasure\Item.cs" />
+    <Compile Include="Cards\Treasure\Items\LimburgerAndAnchovySandwich.cs" />
+    <Compile Include="Cards\Treasure\Items\OneHand\BroadSword.cs" />
+    <Compile Include="Cards\Treasure\Items\OneHand\BucklerOfSwashing.cs" />
+    <Compile Include="Cards\Treasure\Items\OneHand\CheeseGraterOfPeace.cs" />
+    <Compile Include="Cards\Treasure\Items\OneHand\DaggerOfTreachery.cs" />
+    <Compile Include="Cards\Treasure\Items\OneHand\GentlemensClub.cs" />
+    <Compile Include="Cards\Treasure\Items\OneHand\MaceOfSharpness.cs" />
+    <Compile Include="Cards\Treasure\Items\OneHand\RapierOfUnfairness.cs" />
+    <Compile Include="Cards\Treasure\Items\OneHand\RatOnAStick.cs" />
+    <Compile Include="Cards\Treasure\Items\OneHand\SneakyBastardSword.cs" />
+    <Compile Include="Cards\Treasure\Items\OneHand\StaffOfNapalm.cs" />
+    <Compile Include="Cards\Treasure\Items\PantyhoseOfGiantStrength.cs" />
+    <Compile Include="Cards\Treasure\Items\Headgear\PointyHatOfPower.cs" />
+    <Compile Include="Cards\Treasure\Items\ReallyImpressiveTitle.cs" />
+    <Compile Include="Cards\Treasure\Items\SingingAndDancingSword.cs" />
+    <Compile Include="Cards\Treasure\Items\SpikyKnees.cs" />
+    <Compile Include="Cards\Treasure\Items\Stepladder.cs" />
+    <Compile Include="Cards\Treasure\Items\TwoHands\BowWithRibbons.cs" />
+    <Compile Include="Cards\Treasure\Items\TwoHands\ChainsawOfBloodyDismemberment.cs" />
+    <Compile Include="Cards\Treasure\Items\TwoHands\ElevenFootPole.cs" />
+    <Compile Include="Cards\Treasure\Items\TwoHands\HugeRock.cs" />
+    <Compile Include="Cards\Treasure\Items\TwoHands\SwissArmyPolearm.cs" />
     <Compile Include="Combat.cs" />
     <Compile Include="CurrentTurn.cs" />
     <Compile Include="Deck.cs" />
@@ -327,6 +352,7 @@
     <Content Include="Lib\NUnit-2.5.5.10112\samples\vb\syntax\AssertSyntaxTests.vb" />
     <Content Include="Lib\NUnit-2.5.5.10112\samples\vb\syntax\vb-syntax.vbproj" />
     <Content Include="Lib\NUnit-2.5.5.10112\samples\vb\vb-samples.sln" />
+    <Content Include="Specs\Cards\Door\Treasure\Items\Item_spec.txt" />
     <Content Include="Specs\Combat_spec.txt" />
     <Content Include="Specs\Deck_spec.txt" />
     <Content Include="Specs\Game_spec.txt" />
@@ -393,9 +419,6 @@
     <None Include="Lib\NUnit-2.5.5.10112\samples\vb\failures\vb-failures.build" />
     <None Include="Lib\NUnit-2.5.5.10112\samples\vb\money\vb-money.build" />
     <None Include="Lib\NUnit-2.5.5.10112\samples\vb\syntax\vb-syntax.build" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Cards\Door\Monsters\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

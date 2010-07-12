@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Munchkin.Cards;
-using Munchkin.Cards.Treasure.Items;
+using Munchkin.Cards.Treasure;
 using Munchkin.Races;
 using Munchkin.PlayerClasses;
 

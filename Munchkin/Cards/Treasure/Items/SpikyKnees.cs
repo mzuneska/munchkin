@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Munchkin.Cards.Door.Curse
+namespace Munchkin.Cards.Treasure.Items
 {
-    class Lose1BigItem : Card
+    class SpikyKnees : Item
     {
-        public Lose1BigItem() : base("Lose 1 Big Item")
+        public SpikyKnees() : base("Spiky Knees", 200) 
         {
-            this.description = "Choose one big item to discard";
+            this.description = "+1 Bonus";
         }
 
         public override void Play()

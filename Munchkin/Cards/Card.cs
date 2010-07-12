@@ -23,8 +23,17 @@ namespace Munchkin.Cards
             this.name = name;
         }
 
-        public void PickUp() { }
-        public void Discard() { }
+        public void PickUp() 
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Discard() 
+        {
+            throw new NotImplementedException();
+        }
+
+        public abstract void Play();
 
         public bool IsFaceDown
         {

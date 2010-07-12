@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Munchkin.Cards.Door;
 
 namespace Munchkin
 {
@@ -9,6 +10,6 @@ namespace Munchkin
     {
         Player main_combatant;
         Player secondary_combatant;
-        //List<Monster> monsters;
+        List<Monster> monsters;
     }
 }
