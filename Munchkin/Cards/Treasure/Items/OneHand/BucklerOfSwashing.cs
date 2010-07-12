@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Munchkin.Cards.Door.Curse
+namespace Munchkin.Cards.Treasure.Items.OneHand
 {
-    class Lose1BigItem : Card
+    class BucklerOfSwashing : Item
     {
-        public Lose1BigItem() : base("Lose 1 Big Item")
+        public BucklerOfSwashing() : base("Buckler of Swashing", 400) 
         {
-            this.description = "Choose one big item to discard";
+            this.hands = 1;
+            this.description = "+2 Bonus";
         }
 
         public override void Play()

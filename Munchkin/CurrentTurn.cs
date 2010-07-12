@@ -18,8 +18,6 @@ namespace Munchkin
             this.player = player;
             player.BeginTurn();
             KickDownDoor();
-            
-
         }
 
         public void KickDownDoor()
@@ -40,7 +38,7 @@ namespace Munchkin
 
         public void Cursed(Card curse, Player player)
         {
-
+            throw new NotImplementedException();
         }
 
         enum State

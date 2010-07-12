@@ -11,3 +11,17 @@
 6. All the cards should be loaded by the game.
 
 7. As a player when playing a game if killed then I should die.
+
+--8. As a player when drawing an item card it may be big.
+
+--9. As a player when drawing an item card it may be headgear.
+
+--10. As a player when drawing an item card it may be footgear.
+
+--11. As a player when drawing an item card it may take up two hands.
+
+--12. As a player when drawing an item card it may take up one hand.
+
+--13. As a player when drawing an item card it may be flaming.
+
+--14. As a player when drawing an item card it may be armor.

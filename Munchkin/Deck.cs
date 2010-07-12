@@ -21,22 +21,22 @@ namespace Munchkin
 
         public void DiscardCard(Card card)
         {
-
+            throw new NotImplementedException();
         }
 
         public void TakeTreasureCard(CardFacing card_facing)
         {
-
+            throw new NotImplementedException();
         }
 
         public void TakeDoorCard(CardFacing card_facing)
         {
-
+            throw new NotImplementedException();
         }
 
         public void AnnihilateCard(Card card)
         {
-
+            throw new NotImplementedException();
         }
 
         private void ShuffleCards() 

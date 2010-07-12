@@ -12,5 +12,10 @@ namespace Munchkin.Cards.Door.Monsters
             //this.description = "Elves draw an extra treasure after defeating it.";
             //this.bad_stuff_description = "Escape is automatic.";
         }
+
+        public override void Play()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
