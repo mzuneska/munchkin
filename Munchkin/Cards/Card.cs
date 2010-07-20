@@ -7,10 +7,16 @@ namespace Munchkin.Cards
 {
     abstract class Card
     {
+        protected int? value = null;
         protected bool face_down = true;
         protected string name;
         protected Player owner = null;
         protected string description;
+
+        public int? Value
+        {
+            get { return this.value; }
+        }
 
         public string Description
         {

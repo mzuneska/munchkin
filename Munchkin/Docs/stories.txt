@@ -25,3 +25,7 @@
 --13. As a player when drawing an item card it may be flaming.
 
 --14. As a player when drawing an item card it may be armor.
+
+--15. As a player when drawing an item card it may be a "go up a level" card.
+
+16. As a player when drawing an item card it may be a specialty type card.

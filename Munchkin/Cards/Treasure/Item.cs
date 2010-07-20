@@ -7,18 +7,12 @@ namespace Munchkin.Cards.Treasure
 {
     abstract class Item : Card
     {
-        protected int value = 0;
         protected int hands = 0;
         protected bool flaming = false;
         protected bool big = false;
         protected bool headgear = false;
         protected bool footgear = false;
         protected bool armor = false;
-
-        public int Value
-        {
-            get { return this.value; }
-        }
 
         public int Hands
         {
@@ -50,7 +44,7 @@ namespace Munchkin.Cards.Treasure
             get { return armor; }
         }
 
-        public Item(string name, int value) : base(name) 
+        public Item(string name, int? value) : base(name) 
         {
             this.value = value;
         }

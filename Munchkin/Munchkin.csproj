@@ -49,6 +49,16 @@
     <Compile Include="Cards\Door\Curse\Lose1BigItem.cs" />
     <Compile Include="Cards\Door\Monster.cs" />
     <Compile Include="Cards\Door\Monsters\PottedPlant.cs" />
+    <Compile Include="Cards\Treasure\GoUpALevel.cs" />
+    <Compile Include="Cards\Treasure\GoUpALevels\BoilAnAnthill.cs" />
+    <Compile Include="Cards\Treasure\GoUpALevels\BribeGMWithFood.cs" />
+    <Compile Include="Cards\Treasure\GoUpALevels\ConvenientAdditionError.cs" />
+    <Compile Include="Cards\Treasure\GoUpALevels\InvokeObscureRules.cs" />
+    <Compile Include="Cards\Treasure\GoUpALevels\KillTheHireling.cs" />
+    <Compile Include="Cards\Treasure\GoUpALevels\MutilateTheBodies.cs" />
+    <Compile Include="Cards\Treasure\GoUpALevels\OneThousandGoldPieces.cs" />
+    <Compile Include="Cards\Treasure\GoUpALevels\PotionOfGeneralStudliness.cs" />
+    <Compile Include="Cards\Treasure\GoUpALevels\WhineAtTheGM.cs" />
     <Compile Include="Cards\Treasure\Items\Armor\FlamingArmor.cs" />
     <Compile Include="Cards\Treasure\Items\Armor\LeatherArmor.cs" />
     <Compile Include="Cards\Treasure\Items\Armor\MithrilArmor.cs" />
