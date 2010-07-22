@@ -26,6 +26,8 @@
 
 --14. As a player when drawing an item card it may be armor.
 
---15. As a player when drawing an item card it may be a "go up a level" card.
+--15. As a player when drawing a treasure card it may be a "go up a level" card.
 
-16. As a player when drawing an item card it may be a specialty type card.
+--16. As a player when drawing a treasure card it may be a specialty type card.
+
+--17. As a player when drawing a treasure card it may be a "help either side in combat" card.
