@@ -1,0 +1,154 @@
+﻿Race Cards
+	3 Dwarf: You can carry any number of Big items. You can have 6 cards in your hand.
+	3 Elf: +1 to run away. You go up 1 Level for every monster you help someone else kill.
+	3 Halfing: -1 to Run Away. You may sell one item each turn for double price (other items are at normal price).
+	2 Half-Breed: You may have two Race cards, and have all the advantages and disadvantages of each. Or you may have one Race card and have all
+					of its advantages and none of its disadvantages (for example monsters that hate Elves will have no bonus against a half-Elf).
+					Lose this card if you lose your Race card(s).
+	
+Class Cards
+	3 Thief: Backstabbing - You may discard a card to backstab another player (-2 in combat). You may do this only once per victim per combat,
+				but if two players are fighting a monster together, you may backstab each of them.
+			 Theft - You may discard a card to try to steal a small item carried by another player. Roll a die; 4 or more succeeds. Otherwise,
+				you get whacked and lose 1 Level.
+	3 Wizard: Flight Spell - You may discard up to 3 cards while Running Away; each one gives you a +1 bonus to flee.
+			  Charm Spell - You may discard your whole hand to charm a single Monster instead of fighting it. Discard the Monster and take its
+				Treasure, but don't gain levels. If there are other monsters in the combat, fight them normally.
+	3 Warrior: Berserking - You may discard up to 3 cards in combat; each one gives you a +1 bonus.
+			   You win ties in combat.
+	3 Cleric: Resurrection - When it is time for you to draw a card face-up, you may instead take the top card from the appropriate discard pile.
+				You must then discard one card from your hand.
+			  Turning: You may discard up to 3 cards in combat against an Undead creature. Each discard gives you a +3 bonus.
+	2 Super Munchkin: You may have 2 Class cards, and have all the advantages and disadvantages of each.
+
+Curse! Cards
+	1 Lose 1 Big Item: Choose one big item to discard.
+	1 Change Race: If you have no Race now, this curse has no effect. Otherwise, go back through the discard pile, starting with the top discard.
+					The first Race card you come to replaces your current Race(s). If you go through the discards without finding a Race card,
+					you just lose your own Race(s).
+	1 Change Class: If you have no Class now, this curse has no effect. Otherwise, go back through the discard pile, starting with the top discard.
+					The first Class card you come to replaces your current Class(es). If you go through the discards withough finding a Class card,
+					you just lose you own Class(es).
+	1 Lose Your Class: Discard your Class card, if you have one. If you have 2 Classes in play, lose one of them (your choice). If you have no Class,
+					   lose 1 Level.
+	1 Change Sex: -5 to your next combat due to distraction. After that, there is no further penalty. However, the change is permanent.
+	1 Malign Mirror: You are cursed! In your next fight (only), you may not get any bonuses from items other than Armor. A Wishing Ring, used before
+					the next fight, will lift the curse.
+	1 Income Tax: Discard one item of your choice. Every other player must now discard an item, or items, totaling at least as much value as the item
+					you discarded. If they don't have enough to pay the full tax, they must discard all their items and lose a Level.
+	2 Lose 1 Small Item: Choose one small item to discard. Any item that is not designated "big" is small.
+	1 Lose the Headgear You Are Wearing
+	1 Chicken On Your Head: -1 to all your die rolls. Any Curse or Bad Stuff that removes your Headgear will take the chicken with it.
+	1 Lose the Footgear You Are Wearing
+	1 Truly Obnoxious Curse: Lose the item that gives you the biggest bonus.
+	2 Lose 1 Level
+	1 Lose Your Race: Discard any Race card(s) you have in play and become a Human.
+	1 Lose the Armor You Are Wearing
+	1 Duck of Doom: You should know better than to pick up a duck in a dungeon. Lose 2 Levels.
+	1 Lose Two Cards: First the player to the victim's left draws a card from the victim's hand and keeps it. Then the player on the right does the same.
+	
+Special Cards
+	1 Ancient: +10 to Level Of Monster - Play during combat. If the monster is defeated, draw two extra Treasures.
+	1 Humongous: +10 to Level Of Monster - Play during combat. If the monster is defeated, draw two extra Treasures.
+	1 Enraged: +5 to Level Of Monster - Play during combat. If the monster is defeated, draw one extra Treasure.
+	1 Intelligent: +5 to Level Of Monster - Play during combat. If the monster is defeated, draw one extra Treasure.
+	1 Baby: -5 to Level Of Monster (Minimum Level 1) - Play during combat. If the monster is defeated, draw one fewer Treasure (minimum of 1).
+	1 Illusion: Play this card during any combat. Discard any one monster in this combat, along with any cards that have been played to modify it,
+				and replace with a monster card from your hand.
+	1 Divine Intervention: Regardless of who drew this card, or how, all Clerics immediately go up 1 Level. If this ends the game, the winner is
+							entitled to mock the other players mercilessly.
+	1 Help Me Out Here!: Play this card while you are in combat. Take one item from any other player. At the moment you take it, that item must
+						make the difference between youy winning and losing that combat. You may discard something of your own before taking
+						the item, if you wish.
+	1 Out To Lunch: The monster in this room is on a break. Play this card during any combat. The player facing the monster(s) discards them all
+					and draws two Treasure cards immedietly.
+	1 Mate: Another monster appears, of the same Level and with all the same bonuses. If the monsters are defeated, draw treasure for each and go
+			up levels for each. If player fless, he is at -1 to Run Away.
+	3 Wandering Monster: Play this card, with a Monster from your hand, when someone (including you!) is in combat. Your monster joins the one
+							already fighting - add their Levels. If the character(s) must flee, resolve the Run Away attempts seperately, in
+							the order the victim chooses.
+	1 Cheat!: You may have and use any one item that would otherwise be against the rules. Put this card with that item. Discard it when you lose
+				that item.
+				
+Monster Cards (1 each)
+	Potted Plant - L1 T1- Elves draw an extra Treasure after defeating it.
+		Bad Stuff: None. Escape is automatic
+	Lame Goblin - L1 T1 - +1 to Run Away.
+		Bad Stuff: He whacks you with his crutch. Lose 1 Level.
+	Crabs - L1 T1 - Cannot be Outrun!
+		Bad Stuff: Discard armor and all items worn below the waist.
+	Drooling Slime - L1 T1 - Yucky slime! +4 against Elves.
+		Bad Stuff: Discard the Footgear you are wearing. Lose 1 Level if you have no Footgear.
+	Maul Rat - L1 T1 - A creature from Hell. +3 against Clerics.
+		Bad Stuff: She whacks you. Lose 1 Level.
+	Gelatinous Octahedron - L2 T1 - +1 to Run Away.
+		Bad Stuff: If you fail to Run Away, you must drop all your Big items.
+	Pit Bull - L2 T1 - If you can't defeat it, you may distract it (automatic Escape) by dropping any wand, pole, or staff. (Fetch, Fido!)
+		Bad Stuff: Fang marks in your butt. Lose 2 Levels.
+	Flying Frogs - L2 T1 - -1 to Run Away
+		Bad Stuff: They bite! Lose 2 Levels.
+	Mr. Bones (Undead) - L2 T1 - If you must flee, you lose 1 Level even if you Escape.
+		Bad Stuff: His bony touch costs you 2 Levels.
+	Large Angry Chicken - L2 T1 - Fried chicken is delicious. Gain 1 extra Level instantly if you defeat it with fure or flame.
+		Bad Stuff: Very painful pecking. Lose 1 Level.
+	Undead Horse (Undead) - L4 T2 - +5 against Dwarves.
+		Bad Stuff: Kicks, bites, and smells awful. Lose 2 Levels.
+	Snails on Speed - L4 T2 - -2 to Run Away.
+		Bad Stuff: They steal your treasure. Roll a die and lose that many items or cards in your hand - your choice.
+	Leperchaun - L4 T2 - He's gross! +5 against Elves.
+		Bad Stuff: He takes 2 items from you - one chosen by the player on either side of you.
+	Harpies - L4 T2 - They resist magic. +5 against Wizards.
+		Bad Stuff: Their music is really, really bad. Lose 2 Levels.
+	Shrieking Geek - L6 T2 - +6 against Warriors.
+		Bad Stuff: You become a normal, boring Human. Discard any Race or Class cards in play.
+	Platycore - L6 T2 - Resists magic. +6 against Wizards.
+		Bad Stuff: Either discard your whole hand, or lose 2 Levels.
+	Pukachu - L6 T2 - Gain an extra Level if you defeat it without using help or bonuses.
+		Bad Stuff: Projectile vomiting attack! Discard your whole hand.
+	Lawyers - L6 T2 - Will not attack a Thief (professional courtesy). A Thief encountering a lawyer may instead discard two Treasures and
+		draw two new ones face down.
+		Bad Stuff: He hits you with an injunction. Let each other player draw one card from your hand, starting with the player to your left.
+				   Discard any remainder.
+	Amazon - L8 T2 - Will not attack female player or sex-changed male players; just gives them 1 Treasure instead.
+		Bad Stuff: You have had your butt kicked by a woman. Your machie munchkin pride is lose. Lose your Class(es). If you already had no Class,
+				   lose 3 Levels.
+	Gazebo - L8 T2 - No one can help you. You must face the Gazebo alone.
+		Bad Stuff: Lose 3 Levels.
+	Ghoulfiends - L8 T2 - No items help against them - fight with your character level only.
+		Bad Stuff: Your level becomes equal to the lowest level of any character in play.
+	Face Sucker - L8 T2 - It's gross! +6 against Elves.
+		Bad Stuff: When it sucks your face off, your Headgear goes with it. Discard all Headgear worn, and lose 1 Level.
+	Floating Nose - L10 T3 - If you don't want to fight the Floating Nose, you can bribe it with an item worth at least 200 gold pieces, and it will
+		let you go.
+		Bad Stuff: It can sniff you out anywhere. If you lose, you cannot flee, nothing will help you. Lose 3 Levels.
+	3,872 Orcs - L10 T3 - +6 against Dwarves, due to ancient grudges.
+		Bad Stuff: Roll a die. On a 1 or 2, they stomp you to death. Otherwise, lose as many Levels as the die shows.
+	Net Troll - L10 T3 - He has no special powers, and he's really mad about it.
+		Bad Stuff: Screws up the game balance by forcing you to let the player(s) of the highest level take any one item (each) from you.
+	Bigfoot - L12 T3 - +3 against Dwarves and Halflings.
+		Bad Stuff: Stomps you flat and eats your hat. Lose the Headgear you were wearing.
+	Wannabe Vampire - L12 T3 - Instead of fighting, a Cleric can chase the Wannabe Vampire away just by going "booga booga", and take all his Treasure.
+		There is no Level increase for this!
+		Bad Stuff: Blocks the door and tells you about his character. Lose 3 Levels.
+	Tongue Demon - L12 T3 - A creature from Hell. +4 against Clerics. You must discard one item (your choice) before combat.
+		Bad Stuff: A really disgusting kiss costs you 2 Levels (3 for Elves).
+	Stoned Golem - L14 T4 - You may choose whether to fight the Stoned Golem or just wave, walk past, and let him keep his treasure.
+		(Exception: Halflings look tasty and must fight.)
+		Bad Stuff: He has the munchies. He eats you. You're dead.
+	Insurance Salesman - L14 T4 - Your Level does not count. Fight him only with your bonuses.
+		Bad Stuff: You buy insurance. Lose 1,000 gold pieces' worth of items. If you don't have that much, lose all you have.
+	Unspeakably Awful Indescribable Horror - L14 T4 - +4 against Warriors.
+		Bad Stuff: Unspeakably awful death for anyone but a Wizard. A Wizard merely loses his powers - discard Wizard card.
+	Hippogriff - L16 T4 2L - Will not pursue anyone of Level 3 or below.
+		Bad Stuff: You are stomped and chomped. You drop things as you flee. Starting with the player on your right, each player may take one
+				   Treasure card from you in front of you or (without looking) from your hand.
+	King Tut (Undead) - L16 T4 2L - Will not pursue anyone of Level 3 or below. Characters of higher Levels lose 2 Levels, even if they escape.
+		Bad Stuff: Lose all your items and all cards in your hand.
+	Wight Brothers (Undead) - L16 T4 2L - Will not pursue anyone of Level 3 or below. Characters of higher Levels lose 2 Levels, even if they escape.
+		Bad Stuff: You are reduced to Level 1.
+	Squidzilla - L18 T4 2L - Slimy! Elves are at -4. Will not pursue anyone of Level 4 or below except Elves.
+		Bad Stuff: You are grabbed, slimed, crushed, and gobbled, You are dead, dead, dead. Any questions?
+	Bullrog - L18 T5 2L - Will not pursue anyone of Level 4 or below.
+		Bad Stuff: You are flayed to death.
+	Plutonium Dragon - L20 T5 2L - Will not pursue anyone of Level 5 or below.
+		Bad Stuff: You are roasted and eaten.

@@ -31,3 +31,7 @@
 --16. As a player when drawing a treasure card it may be a specialty type card.
 
 --17. As a player when drawing a treasure card it may be a "help either side in combat" card.
+
+18. As a player when drawing a door card it may be a race card.
+
+19. As a player when drawing a door card it may be a half-breed card.

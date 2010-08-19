@@ -143,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Docs\stories.txt" />
+    <Content Include="Docs\card_copy.txt" />
     <Content Include="Lib\NUnit-2.5.5.10112\bin\net-1.1\framework\nunit.framework.dll" />
     <Content Include="Lib\NUnit-2.5.5.10112\bin\net-1.1\framework\nunit.framework.xml" />
     <Content Include="Lib\NUnit-2.5.5.10112\bin\net-1.1\framework\nunit.mocks.dll" />
